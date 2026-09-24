@@ -77,7 +77,7 @@ namespace RpsTournament.WpfApp
         private void UpdateUi()
         {
             RoundsDataGrid.ItemsSource = rounds.Take(currentRoundCount).ToList();
-            ScoreTextBlock.Text = $"Skoor: Võite: {wins} | Kaotusi: {losses} | Viike: {draws}";
+            ScoreTextBlock.Text = string.Format(Res.ScoreFormat, wins, losses, draws);
         }
 
         private void ShowTournamentResult()

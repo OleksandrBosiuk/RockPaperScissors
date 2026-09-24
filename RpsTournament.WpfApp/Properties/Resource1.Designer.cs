@@ -97,6 +97,15 @@ namespace RpsTournament.WpfApp.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Skoor: Võite: {0} | Kaotusi: {1} | Viike: {2}.
+        /// </summary>
+        public static string ScoreFormat {
+            get {
+                return ResourceManager.GetString("ScoreFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Turniir lõppes viigiga!.
         /// </summary>
         public static string TournamentDraw {

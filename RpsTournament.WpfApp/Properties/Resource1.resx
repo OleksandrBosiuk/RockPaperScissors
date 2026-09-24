@@ -129,6 +129,9 @@
   <data name="PlayerWinsTournament" xml:space="preserve">
     <value>Palju õnne! Sa võitsid turniiri!</value>
   </data>
+  <data name="ScoreFormat" xml:space="preserve">
+    <value>Skoor: Võite: {0} | Kaotusi: {1} | Viike: {2}</value>
+  </data>
   <data name="TournamentDraw" xml:space="preserve">
     <value>Turniir lõppes viigiga!</value>
   </data>
